@@ -77,7 +77,7 @@ Adding a path-based rule to an existing application gateway is an easy process t
 
 ![adding additional path-based rules][3]
 
-This configures a path based route. It is important to understand that requests are not re-written, as requests come in application gateway inspects the request and basic on the url pattern sends the request to the appropriate back-end.
+This configures a path based route. It is important to understand that requests are not re-written, application gateway inspects the request as requests come in and sends the request to the appropriate back-end based on the url pattern.
 
 ## Next steps
 
